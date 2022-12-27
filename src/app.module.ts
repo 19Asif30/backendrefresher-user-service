@@ -16,14 +16,14 @@ import { UserModule } from './modules/user/user.module';
       username: 'postgres',
       password: '19asifani30',
       database: 'backend-socialmedia',
-      entities: [User] ,
+      entities: [User],
       synchronize: false,
       logging: true
     }),
     UserModule
-    
+
   ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
